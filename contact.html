@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Movies | Contact Us</title>
+    <link rel="stylesheet" href="css/log.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Start Header -->
+    <header class="site-header">
+        <div class="container">
+            <a href="home.html" class="logo">
+                <img src="img/logo-no-background.png" alt="Your Movies">
+            </a>
+            <ul class="nav-links">
+                <li><a href="home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="movies-all.html"><i class="fa-solid fa-video"></i> Movies</a></li>
+                <li><a href="Top10.html"><i class="fa-solid fa-film"></i> Series</a></li>
+                <li><a href="pro.html"><i class="fa-solid fa-tv"></i> Anime</a></li>
+                <li><a href="contact.html" class="active"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Contact -->
+    <main class="contact" id="contact">
+        <div class="container">
+            <div class="text">
+                <h1>CONTACT US</h1>
+                <p>
+                    Leave us your message, suggestions, or thoughts about our website. We'd love to hear from you!
+                </p>    
+            </div>
+            <div class="con">
+                <div class="mess">
+                    <h2>Send Us a Message</h2>
+                    <form action="" method="post" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent successfully.'); this.reset();">
+                        <div class="field-box">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="name" class="name" required placeholder="Enter Your Name">
+                        </div>
+                        <div class="field-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" name="email" class="email" required placeholder="Enter Your Email">
+                        </div>
+                        <div class="field-box">
+                            <textarea rows="5" class="message" placeholder="Your Message..." required name="message"></textarea>
+                        </div>
+                        <button type="submit" class="bot">
+                            <span>Send Message</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="img">
+                    <img src="img/tyson-moultrie-BQTHOGNHo08-unsplash.jpg" alt="Cinema Projector">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Column 1: Brand & Social -->
+                <div class="footer-box brand">
+                    <img src="img/logo-no-background.png" class="footer-logo" alt="Your Movies">
+                    <p class="desc">
+                        Explore top trending movies, series, and anime with full details, cast, and ratings.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fa-solid fa-x"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-box links-box">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="home.html#home"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                        <li><a href="home.html#movies"><i class="fa-solid fa-angle-right"></i> Movies</a></li>
+                        <li><a href="home.html#series"><i class="fa-solid fa-angle-right"></i> Series</a></li>
+                        <li><a href="pro.html"><i class="fa-solid fa-angle-right"></i> Anime</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Categories -->
+                <div class="footer-box links-box">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="movies-all.html"><i class="fa-solid fa-angle-right"></i> All Movies</a></li>
+                        <li><a href="movies-arab.html"><i class="fa-solid fa-angle-right"></i> Arabic Movies</a></li>
+                        <li><a href="movies.action.html"><i class="fa-solid fa-angle-right"></i> Action Movies</a></li>
+                        <li><a href="movies-comdy.html"><i class="fa-solid fa-angle-right"></i> Comedy Movies</a></li>
+                        <li><a href="Top10.html"><i class="fa-solid fa-angle-right"></i> Top 10 Series</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span>Your Movies</span>. All Rights Reserved.</p>
+                <div class="up">
+                    <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"><i class="fa-solid fa-arrow-up"></i> BACK TO TOP</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+</body>
+</html>
