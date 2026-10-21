@@ -3,10 +3,10 @@ let landingPage = document.querySelector(".landing .image img");
 let imgArray = ['109843.jpg', '118984.jpg', '126929.jpg', '138851.jpg', '140536.jpg', '141385.jpg', '141893.jpg', '234219.jpg'];
 
 if (landingPage) {
-    landingPage.src = "img/anima/126929.jpg";
+    landingPage.src = "../img/anima/126929.jpg";
     setInterval(() => {
         let randomNumber = Math.floor(Math.random() * imgArray.length);
-        landingPage.src = "img/anima/" + imgArray[randomNumber];
+        landingPage.src = "../img/anima/" + imgArray[randomNumber];
     }, 10000);
 }
 
@@ -15,10 +15,10 @@ let megamenuPage = document.querySelector(".header .mega-menu .image img");
 let imgArraytwo = ['109843.jpg', '118984.jpg', '126929.jpg', '138851.jpg', '140536.jpg', '141385.jpg', '141893.jpg', '234219.jpg'];
 
 if (megamenuPage) {
-    megamenuPage.src = "img/anima/227594.jpg";
+    megamenuPage.src = "../img/anima/227594.jpg";
     setInterval(() => {
         let randomNum = Math.floor(Math.random() * imgArraytwo.length);
-        megamenuPage.src = "img/anima/" + imgArraytwo[randomNum];
+        megamenuPage.src = "../img/anima/" + imgArraytwo[randomNum];
     }, 2000);
 }
 

@@ -21,28 +21,28 @@ const megaMenuImg = document.querySelector(".header .mega-menu .image img");
 
 const allCategoryImages = [
   // Movies
-  "img/movies/the wolf.jpg",
-  "img/movies/dune.jpg",
-  "img/movies/oppen.jpg",
-  "img/movies/interstellar.jpg",
-  "img/movies/batman.jpg",
-  "img/movies/spider.jpg",
+  "../img/movies/the wolf.jpg",
+  "../img/movies/dune.jpg",
+  "../img/movies/oppen.jpg",
+  "../img/movies/interstellar.jpg",
+  "../img/movies/batman.jpg",
+  "../img/movies/spider.jpg",
   // Series
-  "img/series/الحشاشين.jpg",
-  "img/series/got.jpg",
-  "img/series/house.jpg",
-  "img/series/succession.jpg",
-  "img/series/101.jpg",
-  "img/series/102.jpg",
+  "../img/series/الحشاشين.jpg",
+  "../img/series/got.jpg",
+  "../img/series/house.jpg",
+  "../img/series/succession.jpg",
+  "../img/series/101.jpg",
+  "../img/series/102.jpg",
   // Anime
-  "img/series/death-not.jpg",
-  "img/series/attack.jpg",
-  "img/series/one.jpg",
-  "img/anima/109843.jpg",
-  "img/anima/126929.jpg",
-  "img/anima/141893.jpg",
-  "img/anima/227594.jpg",
-  "img/anima/234219.jpg"
+  "../img/series/death-not.jpg",
+  "../img/series/attack.jpg",
+  "../img/series/one.jpg",
+  "../img/anima/109843.jpg",
+  "../img/anima/126929.jpg",
+  "../img/anima/141893.jpg",
+  "../img/anima/227594.jpg",
+  "../img/anima/234219.jpg"
 ];
 
 if (megaMenuImg) {
